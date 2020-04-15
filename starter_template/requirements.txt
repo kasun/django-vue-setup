@@ -1,0 +1,5 @@
+Django==3.0.4
+python-decouple==3.3
+mysqlclient==1.4.6
+django-webpack-loader==0.7.0
+git+git://github.com/kasun/django-simplest.git#egg=django-simplest
