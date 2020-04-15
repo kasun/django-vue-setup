@@ -8,9 +8,9 @@ A setup to start a Django+Vue.JS project. Following tools are used/installed as 
 * yarn for js module management.
 * vue-roter for Vue routes handling.
 * Vuetify vue plugin.
-* `django-webpack-loader <https://github.com/owais/django-webpack-loader>`  to connect Django and Vue.JS.
+* `django-webpack-loader <https://github.com/owais/django-webpack-loader>`_  to connect Django and Vue.JS.
 * `python-decouple <https://github.com/henriquebastos/python-decouple>`_ to manage project settings.
-* django-simplest as the REST API.
+* `django-simplest <https://github.com/kasun/django-simplest>`_ as the REST API.
 
 
 Requirements
@@ -19,6 +19,7 @@ Requirements
 * A python virtualenv manager of your choice.
 * Create a new python virtualenv and switch to it.
 * Install yarn globally.
+
 * Install Vue.JS globally::
       yarn global add @vue/cli
 
