@@ -20,8 +20,8 @@ Requirements
 * Create a new python virtualenv and switch to it.
 * Install yarn globally.
 * Install Vue.JS globally
-  .. code-block::
-    yarn global add @vue/cli
+.. code-block::
+  yarn global add @vue/cli
 
 
 Usage
