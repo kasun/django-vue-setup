@@ -28,17 +28,19 @@ Usage
 -----
 
 * Clone this repo locally.
-* Run setup.sh::
-      ./setup.sh project-path project-name
-  * Example::
+
+* Run setup.sh
+    ./setup.sh project-path project-name
+
+    * Example
         ./setup.sh /Users/john/work my_project
 
     This will start a Django project named my_project in /Users/john/work/my_project
 
 * Add webpack_loader into Django `INSTALLED_APPS <https://docs.djangoproject.com/en/3.0/ref/settings/#installed-apps>`_
 
-  .. code-block::
-     INSTALLED_APPS = [
+.. code-block::
+   INSTALLED_APPS = [
          'django.contrib.admin',
          'django.contrib.auth',
          'django.contrib.contenttypes',
@@ -46,13 +48,13 @@ Usage
          'django.contrib.messages',
          'django.contrib.staticfiles',
          'webpack_loader',
-     ]
+   ]
 
-* Start Django (cd into project root)::
-      python manage.py runserver
+* Start Django (cd into project root)
+    python manage.py runserver
 
-* Start yarn dev server ( cd in project-root/ui)::
-      yarn serve
+* Start yarn dev server ( cd into project-root/ui)
+    yarn serve
 
 * visit localhost:8000 in your web browser
 
