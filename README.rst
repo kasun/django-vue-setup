@@ -61,5 +61,6 @@ Usage
 
 Notes
 -----
+* Tested only with Mac OS.
 * Vue files are in the a directory called `ui` in project root.
 * The entry path to the app is at / and it is served from a view called `index` at project-root/views.py and project-root/urls.py
